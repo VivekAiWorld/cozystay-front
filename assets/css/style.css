@@ -1,0 +1,239 @@
+.pocket-rocket {
+    /*
+      All of the base styles have
+      moved to the “CSS” tab above.
+    */
+    transition: transform 250ms;
+  }
+  
+  .pocket-rocket:hover {
+    transform: translateY(-10px);
+  }
+
+
+@media only screen and (max-width: 600px) {
+    #city-section{
+        margin-top: 12rem !important;
+    }
+  }
+
+
+.dwelling-p{
+    font-size : 13px;
+}
+
+.main-girl{
+    position: absolute;
+    width: 35%;
+    bottom: 5%;
+    left: 13%;
+}
+
+.main-girl-bg{
+    position: absolute;
+    top: 9%;
+    width: 36%;
+    left: 7%;
+    transform: rotate(105deg);
+}
+
+
+.main-small-element{
+    width: 7%;
+    margin-top : 2%;
+    margin-right : 17%;
+    margin-bottom : 8%;
+
+}
+
+#main-section{
+    background-image: url('../img/bg/main-rectangle-city-back-svg.svg');
+    background-position: top center;
+    background-position: 0px -30px;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+.swiper-container-blog {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+  }
+  .swiper-slide-blog {
+    background-position: center;
+    background-size: cover;
+    width: auto !important;
+    height: 200px;
+    margin-right: 2rem !important;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 2rem !important;
+  }
+
+
+#mother-h1{
+    font-size:  65px !important;
+    color: #27debf !important;
+}
+
+/* transition card city */
+.zoom-card-city {
+    transition: transform .2s; 
+  }
+  
+  .zoom-card-city:hover {
+    transform: scale(1.5); 
+  }
+/* transition card city end */
+
+.main-line{
+    color: #eec433 ;
+    height: 3px !important;
+    opacity: 100;
+}
+
+.main-social{
+    background-color: #eebf1e;
+    width:30px;
+    height:30px; 
+    border-radius:50%;
+}
+
+.near-me{
+    color : #eebf1e;
+    font-size: 1rem;
+}
+
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+}
+
+.search-icon{
+    font-weight: 400 !important;
+    color: #c6c6c6 !important;
+    font-size:26px;
+}
+
+.search button {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    height: 46px;
+    width: 105px;
+    background: #eebf1e;
+    border-color: #eebf1e !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.search button:hover,.search button:focus,.search button:active{
+    background-color : #bb940e !important;
+    
+}
+
+
+.search .fa-search {
+    position: absolute;
+    top: 13px;
+    left: 16px;
+}
+
+.search input {
+    height: 50px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+    border-radius: .50rem !important;
+    box-shadow: none !important;
+
+}
+.search input:focus{
+    border-color : rgb(94, 99, 102) !important;
+
+}
+
+
+#navbar-brand-nav{
+    margin-right: 6.5rem !important;
+}
+
+.main-section-head{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900 !important;
+    font-size: 52px;
+}
+.main-search{
+    font-weight: 400 !important;
+    font-size: 30px !important;
+}
+
+.main-p{
+    font-size: 15px;
+    color:#5e6366 !important;
+}
+
+.text-yellow{
+    color:#eebf1e !important;
+}
+
+.nav-item{
+    margin-right: 40px !important;
+}
+
+.nav-link{
+    color:black !important;
+    font-size: 15px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-item{
+        margin-right: 0 !important;
+    }
+    #insta-link{
+        margin: 0px 0px 0px 0px !important;
+    }
+  }
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem !important;
+}
+
+
+
+/* bootstrap  */
+.btn-primary {
+    color: #fff;
+    background-color: #eebf1e;
+    border-color: #eebf1e;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #c6a42e;
+    border-color: #c6a42e;
+  }
+  .btn-check:focus + .btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #c6a42e;
+    border-color: #c6a42e;
+    box-shadow: 0 0 0 0.25rem rgb(198, 164, 46, 0.5);
+  }
+  .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #c6a42e;
+    border-color: #c6a42e;
+  }
+  .bt
+/* bootstrap  */
